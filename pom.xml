@@ -11,6 +11,9 @@
     <modules>
         <module>knights</module>
         <module>springidol</module>
+        <module>springidol-autodiscovery</module>
+        <module>springidol-aop</module>
+        <module>springidol-aspectj</module>
     </modules>
 
 

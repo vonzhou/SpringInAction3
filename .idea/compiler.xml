@@ -24,11 +24,17 @@
         <processorPath useClasspath="true" />
         <module name="knights" />
         <module name="springidol" />
+        <module name="springidol-aop" />
+        <module name="springidol-aspectj" />
+        <module name="springidol-autodiscovery" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="knights" target="1.5" />
       <module name="springidol" target="1.5" />
+      <module name="springidol-aop" target="1.5" />
+      <module name="springidol-aspectj" target="1.5" />
+      <module name="springidol-autodiscovery" target="1.5" />
       <module name="SpringInAction3" target="1.5" />
     </bytecodeTargetLevel>
   </component>

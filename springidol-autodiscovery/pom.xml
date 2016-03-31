@@ -7,7 +7,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.vonzhou.springinaction</groupId>
-    <artifactId>springidol</artifactId>
+    <artifactId>springidol-autodiscovery</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
