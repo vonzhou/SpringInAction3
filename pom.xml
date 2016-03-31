@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>knights</module>
+        <module>springidol</module>
     </modules>
 
 

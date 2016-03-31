@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="knights" />
+        <module name="springidol" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="knights" target="1.5" />
+      <module name="springidol" target="1.5" />
       <module name="SpringInAction3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
