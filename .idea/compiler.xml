@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="knights" />
-        <module name="spitter-common" />
         <module name="spitter-persistence-hibernate-contextual-session" />
         <module name="spitter-persistence-jdbc-conventional" />
         <module name="spitter-persistence-jdbc-template" />

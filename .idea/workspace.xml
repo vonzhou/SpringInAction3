@@ -5,190 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5bec5e1-5f5d-4daf-85d4-bc5a9885023c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knights/target/classes/com/vonzhou/springinaction/knights/MyTestBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knights/target/test-classes/com/vonzhou/springinaction/knights/BeanFactoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/config-module-dependency-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/config-module-dependency-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/config-module-dependency-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/target/classes/com/vonzhou/spitter/Spitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/target/classes/com/vonzhou/spitter/Spittle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/target/classes/com/vonzhou/spitter/persistence/SpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/com/vonzhou/spitter/domain/Spitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/com/vonzhou/spitter/domain/Spittle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/com/vonzhou/spitter/persistence/HibernateSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/com/vonzhou/spitter/persistence/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/com/vonzhou/spitter/persistence/SpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/com/vonzhou/spitter/persistence/conventional/JdbcSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/com/vonzhou/spitter/persistence/conventional/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/com/vonzhou/spitter/persistence/conventional/Spitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/com/vonzhou/spitter/persistence/conventional/SpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/com/vonzhou/spitter/persistence/conventional/Spittle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/JdbcSpitterDao$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/JdbcSpitterDao$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/JdbcSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/NamedParameterJdbcTemplateSpitterDao$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/NamedParameterJdbcTemplateSpitterDao$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/NamedParameterJdbcTemplateSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/SimpleJdbcTemplateSpitterDao$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/SimpleJdbcTemplateSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/Spitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/SpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/com/vonzhou/spitter/persistence/Spittle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/com/vonzhou/spitter/persistence/JpaSpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/com/vonzhou/spitter/persistence/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/com/vonzhou/spitter/persistence/Spitter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/com/vonzhou/spitter/persistence/SpitterDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/com/vonzhou/spitter/persistence/Spittle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/Car.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/CarFactoryBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/GetBeanTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/HelloBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/MyTestBean.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/Student.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/Teacher.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/TestChangeMe.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/TestChangeMeReplacer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/example/UserMain.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/javainternals/LearnCollection.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/com/vonzhou/javainternals/MyArrayList.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/test-classes/com/vonzhou/test/BeanFactoryTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_8_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_annotations_3_5_6_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_0_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knights/src/main/java/com/vonzhou/springinaction/knights/MyTestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/knights/src/test/java/com/vonzhou/springinaction/knights/BeanFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/output/2016-4-5-config-module-dependency.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/spitter-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/src/main/java/com/vonzhou/spitter/Spitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-common/src/main/java/com/vonzhou/spitter/Spittle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/spitter-persistence-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/src/main/java/com/vonzhou/spitter/persistence/SpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/dataSource-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/target/classes/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/target/classes/dataSource-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/target/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-common/target/classes/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/spitter-persistence-hibernate-contextual-session.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/java/com/vonzhou/spitter/domain/Spitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/java/com/vonzhou/spitter/domain/Spittle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/java/com/vonzhou/spitter/persistence/HibernateSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/java/com/vonzhou/spitter/persistence/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/java/com/vonzhou/spitter/persistence/SpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/resources/Spitter.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/src/main/resources/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/Spitter.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/target/classes/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/java/com/vonzhou/spitter/persistence/conventional/JdbcSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/java/com/vonzhou/spitter/persistence/conventional/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/java/com/vonzhou/spitter/persistence/conventional/Spitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/java/com/vonzhou/spitter/persistence/conventional/SpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/java/com/vonzhou/spitter/persistence/conventional/Spittle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/resources/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/resources/dataSource-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/src/main/resources/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/data.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/dataSource-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/target/classes/schema.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/spitter-persistence-jdbc-template.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/JdbcSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/NamedParameterJdbcTemplateSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/SimpleJdbcTemplateSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/Spitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/SpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/java/com/vonzhou/spitter/persistence/Spittle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/src/main/resources/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-template/target/classes/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/spitter-persistence-jpa.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/java/com/vonzhou/spitter/persistence/JpaSpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/java/com/vonzhou/spitter/persistence/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/java/com/vonzhou/spitter/persistence/Spitter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/java/com/vonzhou/spitter/persistence/SpitterDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/java/com/vonzhou/spitter/persistence/Spittle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/resources/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/src/main/resources/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/db.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spitter-persistence-jpa/target/classes/persistence-context.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/springinternals.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/Car.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/CarFactoryBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/GetBeanTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/HelloBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/MyTestBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/Teacher.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/TestChangeMe.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/TestChangeMeReplacer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/example/UserMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/javainternals/InterfaceExtendTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/javainternals/LearnCollection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/java/com/vonzhou/javainternals/MyArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/main/resources/knights.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/src/test/java/com/vonzhou/test/BeanFactoryTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springinternals/target/classes/knights.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/spitter-common.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/src/main/java/com/vonzhou/spitter/Spitter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/src/main/java/com/vonzhou/spitter/Spittle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/target/classes/com/vonzhou/spitter/Spitter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-common/target/classes/com/vonzhou/spitter/Spittle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/spitter-persistence-common.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/src/main/java/com/vonzhou/spitter/persistence/SpitterDao.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/dataSource-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/src/main/resources/schema.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/target/classes/com/vonzhou/spitter/persistence/SpitterDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/target/classes/data.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/target/classes/dataSource-context.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/target/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/spitter-persistence-common/target/classes/schema.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knights/knights.iml" afterPath="$PROJECT_DIR$/knights/knights.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knights/pom.xml" afterPath="$PROJECT_DIR$/knights/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knights/src/main/resources/knights.xml" afterPath="$PROJECT_DIR$/knights/src/main/resources/knights.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knights/target/classes/knights.xml" afterPath="$PROJECT_DIR$/knights/target/classes/knights.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" afterPath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" />
     </list>
     <ignored path="SpringInAction3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -444,124 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spitter-persistence-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spitter-persistence-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spitter-persistence-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spitter-persistence-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpringInAction3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spitter-persistence-jpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -876,7 +598,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -888,7 +610,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26029217" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1400,7 +1122,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spitter-persistence-jpa</last-edited>
+          <last-edited>spitter-persistence-jdbc-template</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
