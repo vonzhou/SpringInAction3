@@ -9,5 +9,7 @@
   </bean>
 
   <bean id="quest" class="com.vonzhou.springinaction.knights.SlayDragonQuest" />
+
+  <bean id="myTestBean" class="com.vonzhou.springinaction.knights.MyTestBean"/>
       
 </beans>

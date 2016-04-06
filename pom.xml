@@ -14,6 +14,12 @@
         <module>springidol-autodiscovery</module>
         <module>springidol-aop</module>
         <module>springidol-aspectj</module>
+        <module>springinternals</module>
+        <module>spitter-persistence-common</module>
+        <module>spitter-common</module>
+        <module>spitter-persistence-jdbc-template</module>
+        <module>spitter-persistence-hibernate-contextual-session</module>
+        <module>spitter-persistence-jpa</module>
     </modules>
 
 

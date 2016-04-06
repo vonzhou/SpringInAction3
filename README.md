@@ -3,6 +3,8 @@
 
 2016.3.31  阅读《Spring实战3rd》
 
+之前间歇的阅读过，但是只是停留在理解的层面上，想要把每个例子跑通也需要一定的折腾。
+
 ## 1. Spring之旅
 
 * 依赖注入
@@ -20,7 +22,7 @@
 * 内部bean适用于setter注入和构造器注入，内部bean不能被复用
 * SpEL表达式
 
-[springidol]()
+[springidol](https://github.com/vonzhou/SpringInAction3/tree/master/springidol)
 
 ## 3. 最小化Spring XML配置
 
@@ -31,7 +33,7 @@
 * \<context:component-scan> 配置自动扫描
 * 在基于Java的配置中使用@Configuration注解的Java类，等价于XML配置中的\<beans>元素
 
-[springidol-autodiscovery]()
+[springidol-autodiscovery](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-autodiscovery)
 
 ## 4. 面向切面Spring
 
@@ -42,10 +44,17 @@
 * introduction为已有的接口引入新接口
 * at aspect
 
-[springidol-aop]()
+[springidol-aop](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aop)
 
-[springidol-aspectj]()
+[springidol-aspectj](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aspectj)
 
-## 5. 
+## 5. 征服数据库
+
+* Spring在数据访问层使用模板方法设计模式，模板template管理数据访问过程中固定的部分，回调callback处理自定义的数据访问细节
+* 想要控制的越多就越复杂，更多的冗余逻辑，tradeoff
+* 使用MySQL数据库
+* 体会各种持久化方法的使用
+
+
 
 

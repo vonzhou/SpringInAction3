@@ -13,7 +13,7 @@
 
     <properties>
         <spring.group>org.springframework</spring.group>
-        <spring.version>3.0.2.RELEASE</spring.version>
+        <spring.version>3.2.3.RELEASE</spring.version>
     </properties>
 
     <dependencies>

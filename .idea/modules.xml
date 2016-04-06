@@ -4,10 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringInAction3.iml" filepath="$PROJECT_DIR$/SpringInAction3.iml" />
       <module fileurl="file://$PROJECT_DIR$/knights/knights.iml" filepath="$PROJECT_DIR$/knights/knights.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-common/spitter-common.iml" filepath="$PROJECT_DIR$/spitter-common/spitter-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-persistence-common/spitter-persistence-common.iml" filepath="$PROJECT_DIR$/spitter-persistence-common/spitter-persistence-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/spitter-persistence-hibernate-contextual-session.iml" filepath="$PROJECT_DIR$/spitter-persistence-hibernate-contextual-session/spitter-persistence-hibernate-contextual-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" filepath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jdbc-template/spitter-persistence-jdbc-template.iml" filepath="$PROJECT_DIR$/spitter-persistence-jdbc-template/spitter-persistence-jdbc-template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jpa/spitter-persistence-jpa.iml" filepath="$PROJECT_DIR$/spitter-persistence-jpa/spitter-persistence-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol/springidol.iml" filepath="$PROJECT_DIR$/springidol/springidol.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol-aop/springidol-aop.iml" filepath="$PROJECT_DIR$/springidol-aop/springidol-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol-aspectj/springidol-aspectj.iml" filepath="$PROJECT_DIR$/springidol-aspectj/springidol-aspectj.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol-autodiscovery/springidol-autodiscovery.iml" filepath="$PROJECT_DIR$/springidol-autodiscovery/springidol-autodiscovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springinternals/springinternals.iml" filepath="$PROJECT_DIR$/springinternals/springinternals.iml" />
     </modules>
   </component>
 </project>
