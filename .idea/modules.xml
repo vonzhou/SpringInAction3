@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" filepath="$PROJECT_DIR$/spitter-persistence-jdbc-conventional/spitter-persistence-jdbc-conventional.iml" />
       <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jdbc-template/spitter-persistence-jdbc-template.iml" filepath="$PROJECT_DIR$/spitter-persistence-jdbc-template/spitter-persistence-jdbc-template.iml" />
       <module fileurl="file://$PROJECT_DIR$/spitter-persistence-jpa/spitter-persistence-jpa.iml" filepath="$PROJECT_DIR$/spitter-persistence-jpa/spitter-persistence-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-service-declarative-tx/spitter-service-declarative-tx.iml" filepath="$PROJECT_DIR$/spitter-service-declarative-tx/spitter-service-declarative-tx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spitter-service-programmatic-tx/spitter-service-programmatic-tx.iml" filepath="$PROJECT_DIR$/spitter-service-programmatic-tx/spitter-service-programmatic-tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol/springidol.iml" filepath="$PROJECT_DIR$/springidol/springidol.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol-aop/springidol-aop.iml" filepath="$PROJECT_DIR$/springidol-aop/springidol-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springidol-aspectj/springidol-aspectj.iml" filepath="$PROJECT_DIR$/springidol-aspectj/springidol-aspectj.iml" />

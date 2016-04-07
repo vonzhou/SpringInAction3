@@ -63,4 +63,21 @@
 
 [spitter-persistence-jpa](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jpa)
 
+## 6. 事务管理
+
+* 事务的ACID特性
+* 编码式 vs 声明式事务在细粒度和易用性之间的权衡
+* Spring为每种场景定义了事务管理器（TransactionManager），底层是特定的事务实现
+* 要理解JDBC事务，Hibernate事务幕后的实现
+* 声明式事务的5个属性：传播行为，隔离级别，只读，超时，回滚规则
+
+
+
+
+
+
+
+
+
+
 

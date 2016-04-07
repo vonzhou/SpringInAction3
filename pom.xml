@@ -20,6 +20,8 @@
         <module>spitter-persistence-jdbc-template</module>
         <module>spitter-persistence-hibernate-contextual-session</module>
         <module>spitter-persistence-jpa</module>
+        <module>spitter-service-programmatic-tx</module>
+        <module>spitter-service-declarative-tx</module>
     </modules>
 
 
