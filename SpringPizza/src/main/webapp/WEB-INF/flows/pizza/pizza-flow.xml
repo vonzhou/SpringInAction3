@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+  http://www.springframework.org/schema/webflow/spring-webflow.xsd">
+
+    <var name="order"
+         class="com.vonzhou.springinaction.pizza.domain.Order"/>
+    <var name="pizzaFlowActions" class="com.vonzhou.springinaction.pizza.flow.PizzaFlowActions"/>
+    <!-- 多次创建 PizzaFlowActions 实例, 因为我不知道怎样做到让flow之间都公用一个对象-->
+
+    <subflow-state id="identifyCustomer" subflow="customer"> <!--调用 识别顾客 子流程-->
+        <output name="customer" value="order.customer"/>
+        <transition on="customerReady" to="buildOrder"/>
+    </subflow-state>
+
+    <subflow-state id="buildOrder" subflow="order"> <!-- 调用 创建订单 子流程 -->
+        <input name="order" value="order"/>
+        <transition on="orderCreated" to="takePayment"/>
+    </subflow-state>
+
+    <subflow-state id="takePayment" subflow="payment"> <!--调用 支付 子流程-->
+        <input name="order" value="order"/>
+        <transition on="paymentTaken" to="saveOrder"/>
+    </subflow-state>
+
+    <action-state id="saveOrder">   <!--保存订单-->
+        <evaluate expression="pizzaFlowActions.saveOrder(order)"/>
+        <transition to="thankCustomer"/>
+    </action-state>
+
+    <view-state id="thankCustomer"> <!--致谢顾客-->
+        <transition on="finished" to="endState"/>
+    </view-state>
+
+    <end-state id="endState"/>
+
+    <global-transitions>
+        <transition on="cancel" to="endState"/><!-- 全局取消转移 -->
+    </global-transitions>
+</flow>

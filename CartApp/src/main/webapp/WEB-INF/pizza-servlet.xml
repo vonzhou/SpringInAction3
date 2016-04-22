@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:flow="http://www.springframework.org/schema/webflow-config"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/webflow-config
+       http://www.springframework.org/schema/webflow-config.xsd">
+
+    <!-- 搜索 samples.webflow 包里的 @Component 注解，并将其部署到容器中 -->
+    <context:component-scan base-package="samples.webflow"/>
+    <!-- 启用基于注解的配置 -->
+    <context:annotation-config/>
+    <mvc:annotation-driven/>
+
+    <bean id="viewMappings" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <!-- /shopping.do 请求由 flowController 来处理 -->
+        <property name="mappings">
+            <value>/shopping.do=flowController</value>
+        </property>
+        <property name="defaultHandler">
+            <bean class="org.springframework.web.servlet.mvc.UrlFilenameViewController"></bean>
+        </property>
+    </bean>
+
+</beans>

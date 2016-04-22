@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flow xmlns="http://www.springframework.org/schema/webflow"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.springframework.org/schema/webflow
+    http://www.springframework.org/schema/webflow/spring-webflow.xsd">
+
+    <!--  FUCK , 这里又定义了一个实例,如何做到访问全局的一个bean??  -->
+    <var name="productService" class="samples.webflow.ProductService"/>
+    <on-start>
+        <set name="requestScope.productId" value="requestParameters.productId"/>
+    </on-start>
+
+    <action-state id="addToCart">
+        <evaluate expression="cart.addItem(productService.getProduct(productId))"/>
+        <transition to="productAdded"/>
+    </action-state>
+
+    <!-- 注意这个end state的ID是和 addToCart subflow 中的<transition on="productAdded" to="viewCart" /> 对应的 -->
+    <end-state id="productAdded"/>
+</flow>

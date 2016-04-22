@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.vonzhou.spitter.persistence.Spittle" table="spittle">
+        <id column="id" name="id" type="java.lang.Long">
+            <generator class="native"/>
+        </id>
+        <property column="spittleText" name="text" type="java.lang.String"/>
+        <property column="spittleDate" name="when" type="java.util.Date"/>
+        <!--  Association 多个Spittle可能对应同一个Spitter  -->
+        <many-to-one name="spitter" class="com.vonzhou.spitter.persistence.Spitter"
+                     column="spitter_id" unique="true" not-null="true"/>
+    </class>
+</hibernate-mapping>

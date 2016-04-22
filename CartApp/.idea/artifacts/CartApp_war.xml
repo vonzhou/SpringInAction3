@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CartApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CartApp.war">
+      <element id="artifact" artifact-name="CartApp:war exploded" />
+    </root>
+  </artifact>
+</component>

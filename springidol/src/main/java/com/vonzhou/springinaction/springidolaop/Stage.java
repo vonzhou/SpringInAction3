@@ -6,10 +6,10 @@ public class Stage {
 
     // 静态内部类
     private static class StageSingletonHolder {
-        static Stage instance = new Stage(); //<co id="co_lazyLoad"/>
+        static Stage instance = new Stage();
     }
 
     public static Stage getInstance() {
-        return StageSingletonHolder.instance; //<co id="co_returnInstance"/>
+        return StageSingletonHolder.instance;
     }
 }

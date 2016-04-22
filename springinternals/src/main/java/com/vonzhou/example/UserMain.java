@@ -16,6 +16,7 @@ public class UserMain {
         test2.changeMe();
 
         Car car = (Car)context.getBean("car");
+//        Car car2 = (Car)context.getBean();
         System.out.println(car.getBrand());
 
     }
