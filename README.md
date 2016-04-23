@@ -251,7 +251,7 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 
 * [Spring Web Flow官网](http://projects.spring.io/spring-webflow/)
 * [spring-webflow-samples](https://github.com/spring-projects/spring-webflow-samples)
-* [Spring Web Flow 2.0 入门](http://www.ibm.com/developerworks/cn/education/java/j-spring-webflow/index.html)， 代码[CartApp]()
+* [Spring Web Flow 2.0 入门](http://www.ibm.com/developerworks/cn/education/java/j-spring-webflow/index.html)， 代码[CartApp](https://github.com/vonzhou/SpringInAction3/tree/master/CartApp)
 * [What's the difference between @Component, @Repository & @Service annotations in Spring?](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
 * JSPX 和 JSP 的区别
 
@@ -263,6 +263,7 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 * 登录表单的提交action的url要和security配置中form-login的login-processing-url对应起来，否则谁知道怎么处理
 * 关于CSRF的一点总结，首先要在form里面配置一个csrf的隐藏域因为Spring默认开启了csrf防护，否则Invalid CSRF Token 'null' was found on the request parameter '_csrf' or header 'X-CSRF-TOKEN'. 
 * 注意login表单中的用户名和密码input的name不能是默认的j\_username, 发生了Invalid CSRF Token的问题，我不知道为何。书中的代码怎么通过的？我在这里迷失了很久！解决的方法就是在security配置中的form-login中显示的指定username-parameter="username", password-parameter="password". login.jsp中保持和这里的一致。
+* **书中对该框架的讲解只是抛砖引玉，需要自己深入学习**
 
 一个问题的记录，当security配置文件中配置两个access ROLE的时候就会出现重定向次数太多的错误，对应这种场景必定有解决方法，这里先配置一种ROLE。
 
@@ -279,6 +280,35 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 **跑起来√** [spitter-web-security]()
 
 
+
+## 10. 使用远程服务
+
+* java RMI基本原理
+* 在阅读Oracle的rmi文档的时候，感觉很爽啊，有时间多看看这些原汁原味的文档，收获自然不菲
+* java -cp 参数的多个路径用冒号分隔，. 代码当前目录
+* 实现一个简单的RMI示例，Java RMI tutorial没有跑通。如果出现LocateRegistry.createRegistry()绑定默认的1099端口失败，那么就先杀死他，然后启动rmiregistry，如下：
+
+![](rmidemo/kill-rmiregistry.jpg)
+
+
+
+
+
+
+**参阅学习：**
+
+* [Trail: RMI: Table of Contents](http://docs.oracle.com/javase/tutorial/rmi/TOC.html),  搞了半天没有跑通，草! 
+
+
+
+
+## TODO
+
+开启阅读 Oracle 的java文档 & coding
+
+[The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
+
+如何发布一个jar到maven仓库中test
 
 
 

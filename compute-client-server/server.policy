@@ -1,0 +1,3 @@
+grant codeBase "file:/Users/vonzhou/Workspace/SpringInAction3/compute-client-server/src/" {
+    permission java.security.AllPermission;
+};
