@@ -73,9 +73,9 @@
 * 要理解JDBC事务，Hibernate事务幕后的实现
 * 声明式事务的5个属性：传播行为，隔离级别，只读，超时，回滚规则
 
-**跑起来√**[spitter-service-declarative-tx]()
+**跑起来√**[spitter-service-declarative-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-declarative-tx)
 
-**跑起来√**[spitter-service-programmatic-tx]()
+**跑起来√**[spitter-service-programmatic-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-programmatic-tx)
 
 ## 7. 使用Spring MVC构建Web应用程序
 
@@ -226,7 +226,7 @@ http://blogs.sourceallies.com/2011/08/spring-injection-with-resource-and-autowir
 
 [What issues should be considered when overriding equals and hashCode in Java?](http://stackoverflow.com/questions/27581/what-issues-should-be-considered-when-overriding-equals-and-hashcode-in-java)
 
-**跑起来√**[spitter-web]()
+**跑起来√**[spitter-web](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-web)
 
 ## 8. Spring Web Flow使用
 
@@ -255,7 +255,7 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 * [What's the difference between @Component, @Repository & @Service annotations in Spring?](http://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in)
 * JSPX 和 JSP 的区别
 
-**跑起来√**  [Spizza]()
+**跑起来√**  [Spizza](https://github.com/vonzhou/SpringInAction3/tree/master/SpringPizza)
 
 ## 9. 保护Spring应用
 
