@@ -63,20 +63,14 @@
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-extras:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-core:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-api:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-api:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: commons-digester:commons-digester:2.0" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-servlet-wildcard:1.0.6" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-servlet:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-mustache:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-api:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: com.github.spullara.mustache.java:compiler:0.8.4" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:12.0.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-jsp:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-freemarker:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-servlet:3.0.5" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-template:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-freemarker:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.15" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-velocity:3.0.5" level="project" />
@@ -84,7 +78,6 @@
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2" level="project" />
     <orderEntry type="library" name="Maven: oro:oro:2.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.6.2" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-velocity:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-el:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-mvel:3.0.5" level="project" />
@@ -93,10 +86,17 @@
     <orderEntry type="library" name="Maven: ognl:ognl:2.7.3" level="project" />
     <orderEntry type="library" name="Maven: jboss:javassist:3.7.ga" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-compat:3.0.5" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:12.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:1.3.9" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-servlet:3.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-servlet:1.0.6" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-jsp:3.0.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tiles:tiles-template:3.0.5" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-autotag-core-runtime:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.tiles:tiles-request-jsp:1.0.6" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.3.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
   </component>

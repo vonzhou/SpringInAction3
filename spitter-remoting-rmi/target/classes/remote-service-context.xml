@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <import resource="service-context.xml"/>
+    <import resource="persistence-context.xml"/>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter"
+          p:service-ref="greetingService"
+          p:serviceName="GreetingService"
+          p:registryPort="1099"
+          p:serviceInterface="com.vonzhou.spitter.hello.GreetingService"/>
+
+    <bean id="greetingService" class="com.vonzhou.spitter.hello.GreetingServiceImpl"/>
+
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter"
+          p:service-ref="spitterService"
+          p:serviceName="SpitterService"
+          p:registryPort="1099"
+          p:serviceInterface="com.vonzhou.spitter.service.SpitterService"/>
+
+    <bean id="spitterService" class="com.vonzhou.spitter.service.SpitterServiceImpl"/>
+
+</beans>

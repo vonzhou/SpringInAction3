@@ -283,14 +283,16 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 
 ## 10. 使用远程服务
 
-* java RMI基本原理
+* 先要保证不用Spring的时候这些RPC的基本使用和原理，否则框架会蒙蔽你的脑子
 * 在阅读Oracle的rmi文档的时候，感觉很爽啊，有时间多看看这些原汁原味的文档，收获自然不菲
 * java -cp 参数的多个路径用冒号分隔，. 代码当前目录
 * 实现一个简单的RMI示例，Java RMI tutorial没有跑通。如果出现LocateRegistry.createRegistry()绑定默认的1099端口失败，那么就先杀死他，然后启动rmiregistry，如下：
 
 ![](rmidemo/kill-rmiregistry.jpg)
 
-
+* 简单示例GreetingService中, 通过rmi 方法调用返回的是String对象,String显然实现了java.io.java.io.Serializable，在这里问题UnmarshalException->NotSerializableException就出现在远程方法调用返回的是Spitter对象,所以就要牵扯到对象从RMI server传输到本地,所以Spitter要实现Serializable
+* 根据出现的 UnmarshalException 的 ClassNotFoundException 的类的包名，还可以发现一个问题， Spitter对象是在远程获得的，所以需要load到本地，所以包名也要一致，否则就属于不同的Spitter啊。
+* 纯粹的使用Hessian, 然后整合到Spring中 [示例 hello-hessian-spring](hello-hessian-spring) 。Spring 并没有做更多的简化，只是集成。
 
 
 
@@ -298,6 +300,37 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 **参阅学习：**
 
 * [Trail: RMI: Table of Contents](http://docs.oracle.com/javase/tutorial/rmi/TOC.html),  搞了半天没有跑通，草! 
+* [stackoverflow - hibernate exception Null value was assigned to a property of primitive type setter](http://stackoverflow.com/questions/3154582/why-do-i-get-a-null-value-was-assigned-to-a-property-of-primitive-type-setter-o)
+* [stackoverflow - WriteAbortedException: writing aborted; java.io.NotSerializableException:](http://stackoverflow.com/questions/2294551/java-io-writeabortedexception-writing-aborted-java-io-notserializableexception)
+
+
+**跑起来√** [spitter-remoting-rmi](spitter-remoting-rmi)
+
+**跑起来√** [hello-hessian](hello-hessian) 整合到Spring中, [hello-hessian-spring](hello-hessian-spring), [hello-hessian-spring-client](hello-hessian-spring-client)。
+
+**跑起来√** [hello-httpinvoker](hello-httpinvoker)
+
+
+## 11. 为Spring添加REST功能
+
+* 理解REST的基本哲学
+* 处理RESTful的URL，写对应的控制器
+* HTTP各种方法的理解
+* 使用RestTemplate
+* 编写REST客户端，以及HttpMessageConverter对客户端的适应
+* component-scan中的多个package使用逗号分隔
+* Fuck, 以后尽量手动的mvn clean pakcage， 然后用IDE部署运行，否则有些问题。
+
+**跑起来√** [spitter-web-rest]()
+
+
+## 12. Spring消息
+
+* 之前在阿里实习的时候，对RocketMQ有过较为深入的阅读
+* 
+
+
+
 
 
 
@@ -309,6 +342,9 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 [The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
 
 如何发布一个jar到maven仓库中test
+
+
+
 
 
 

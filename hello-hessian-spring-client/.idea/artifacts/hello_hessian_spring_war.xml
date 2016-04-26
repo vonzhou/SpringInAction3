@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello-hessian-spring:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hello-hessian-spring-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hello-hessian-spring:war exploded" />
+    </root>
+  </artifact>
+</component>

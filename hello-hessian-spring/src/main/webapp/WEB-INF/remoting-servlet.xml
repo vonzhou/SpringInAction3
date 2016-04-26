@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="order" value="100"/>
+        <property name="urlMap">
+            <map>
+                <entry key="/remote/helloService.htm" value-ref="helloHessianService"/>
+            </map>
+        </property>
+    </bean>
+    <!--
+    <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+-->
+    <bean id="helloService" class="com.vonzhou.hello.HelloServiceImpl"/>
+
+    <!-- 如果使用默认的根据bean的name来映射URL的话,下面就指定的是name, 而不是ID,但是还PageNotFound  -->
+    <bean id = "helloHessianService"  name="/Hello" class="org.springframework.remoting.caucho.HessianServiceExporter">
+        <property name="service" ref="helloService"/>
+        <property name="serviceInterface" value="com.vonzhou.hello.HelloService"/>
+     </bean>
+
+
+</beans>
