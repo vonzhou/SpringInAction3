@@ -5,7 +5,7 @@
 
 之前间歇的阅读过，但是只是停留在理解的层面上，想要把每个例子跑通也需要一定的折腾。
 
-注：每个示例都是一个单独的project。
+注：每个示例都是一个单独的Maven Project。
 
 ## 1. Spring之旅
 
@@ -15,7 +15,7 @@
 * spring容器
 * Spring还有很多值得学习的框架，如安全
 
-**跑起来√**[knights](https://github.com/vonzhou/SpringInAction3/tree/master/knights/src/main/java/com/vonzhou/springinaction/knights)
+**跑起来√** [knights](https://github.com/vonzhou/SpringInAction3/tree/master/knights/src/main/java/com/vonzhou/springinaction/knights)
 
 ## 2. 装配Bean
 
@@ -24,7 +24,7 @@
 * 内部bean适用于setter注入和构造器注入，内部bean不能被复用
 * SpEL表达式
 
-**跑起来√**[springidol](https://github.com/vonzhou/SpringInAction3/tree/master/springidol)
+**跑起来√** [springidol](https://github.com/vonzhou/SpringInAction3/tree/master/springidol)
 
 ## 3. 最小化Spring XML配置
 
@@ -35,7 +35,7 @@
 * \<context:component-scan> 配置自动扫描
 * 在基于Java的配置中使用@Configuration注解的Java类，等价于XML配置中的\<beans>元素
 
-**跑起来√**[springidol-autodiscovery](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-autodiscovery)
+**跑起来√** [springidol-autodiscovery](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-autodiscovery)
 
 ## 4. 面向切面Spring
 
@@ -46,9 +46,9 @@
 * introduction为已有的接口引入新接口
 * at aspect
 
-**跑起来√**[springidol-aop](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aop)
+**跑起来√** [springidol-aop](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aop)
 
-**跑起来√**[springidol-aspectj](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aspectj)
+**跑起来√** [springidol-aspectj](https://github.com/vonzhou/SpringInAction3/tree/master/springidol-aspectj)
 
 ## 5. 征服数据库
 
@@ -57,13 +57,13 @@
 * 使用MySQL数据库
 * 体会各种持久化方法的使用
 
-**跑起来√**[spitter-persistence-jdbc-conventional](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jdbc-conventional)
+**跑起来√** [spitter-persistence-jdbc-conventional](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jdbc-conventional)
 
-**跑起来√**[spitter-persistence-jdbc-template](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jdbc-template)
+**跑起来√** [spitter-persistence-jdbc-template](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jdbc-template)
 
-**跑起来√**[spitter-persistence-hibernate-contextual-session](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-hibernate-contextual-session)
+**跑起来√** [spitter-persistence-hibernate-contextual-session](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-hibernate-contextual-session)
 
-**跑起来√**[spitter-persistence-jpa](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jpa)
+**跑起来√** [spitter-persistence-jpa](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-jpa)
 
 ## 6. 事务管理
 
@@ -73,9 +73,9 @@
 * 要理解JDBC事务，Hibernate事务幕后的实现
 * 声明式事务的5个属性：传播行为，隔离级别，只读，超时，回滚规则
 
-**跑起来√**[spitter-service-declarative-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-declarative-tx)
+**跑起来√** [spitter-service-declarative-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-declarative-tx)
 
-**跑起来√**[spitter-service-programmatic-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-programmatic-tx)
+**跑起来√** [spitter-service-programmatic-tx](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-service-programmatic-tx)
 
 ## 7. 使用Spring MVC构建Web应用程序
 
@@ -327,21 +327,58 @@ org.xml.sax.SAXParseException; lineNumber: 8; columnNumber: 96; cvc-complex-type
 ## 12. Spring消息
 
 * 之前在阿里实习的时候，对RocketMQ有过较为深入的阅读
-* 
+* ActiveMQ的使用，先要下载，启动broker，作为消息生产者消费者之间的代理
+
+![](activemq-start.jpg)
+
+* This class is not trusted to be serialized as ObjectMessage payload.  使用ObjectMessage的时候需要设置信任的package
+
+```java
+Caused by: java.lang.ClassNotFoundException: Forbidden class org.springframework.remoting.support.RemoteInvocation! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:112)
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:57)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1613)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1518)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1774)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371)
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:206)
+	... 14 more
+```
+
+简单起见设置为：
+
+```java
+System.setProperty("org.apache.activemq.SERIALIZABLE_PACKAGES","*");
+```
+ 
+
+**参阅学习：**
+
+[ActiveMQ ObjectMessage](http://activemq.apache.org/objectmessage.html)
+
+**跑起来√** [messaging](messaging)
 
 
+## 13. 将Spring Bean导出为MBean
+
+* 前提是理解JMX，看文档
+
+## 14. 其他Spring技巧
+
+* 将一些需要修改的配置细节外部化一个单独的配置文件，系统文件，或环境变量中
+* JavaMailSender
+* 调度任务 
 
 
+## 迷失
+
+![](lost.jpg)
 
 
-
-## TODO
-
-开启阅读 Oracle 的java文档 & coding
-
-[The Java™ Tutorials](https://docs.oracle.com/javase/tutorial/)
-
-如何发布一个jar到maven仓库中test
+> Spring旅程才刚刚开始！
+> 
+> vonzhou 2015.4.26 
 
 
 
