@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="spitter-web-security:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spitter-web-security-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="spitter-web-security:war exploded" />
+    </root>
+  </artifact>
+</component>

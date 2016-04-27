@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean:beans xmlns:bean="http://www.springframework.org/schema/beans"
+            xmlns="http://www.springframework.org/schema/security"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xmlns:mvc="http://www.springframework.org/schema/mvc"
+            xmlns:context="http://www.springframework.org/schema/context"
+            xsi:schemaLocation="http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/security
+       http://www.springframework.org/schema/security/spring-security.xsd">
+
+
+    <!-- 把首要命名空间设为security -->
+
+    <!-- 一个表现是登录了普通的ROLE_SPITTER用户,不能访问 /admin** 页面, 说 access denied. 除非重新登录到admin用户   -->
+
+    <http auto-config="true">
+        <intercept-url pattern="/admin**" access="hasRole('ROLE_ADMIN')" />
+        <intercept-url pattern="/home" access="hasRole('ROLE_SPITTER')"/>
+        <form-login
+                login-page="/login"
+                default-target-url="/welcome"
+                authentication-failure-url="/login?error"
+                username-parameter="username"
+                password-parameter="password"
+                login-processing-url="/j_spring_security_check"
+        />
+        <logout logout-success-url="/login?logout"/>
+
+        <!-- enable csrf protection -->
+        <csrf/>
+    </http>
+    <authentication-manager>
+        <authentication-provider user-service-ref="userService"/>
+    </authentication-manager>
+
+
+    <!--  开启方法级别的安全注解  -->
+    <global-method-security secured-annotations="enabled"/>
+
+
+</bean:beans>

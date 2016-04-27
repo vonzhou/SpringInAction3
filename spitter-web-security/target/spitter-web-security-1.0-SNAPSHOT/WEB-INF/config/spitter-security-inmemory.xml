@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans:beans xmlns:beans="http://www.springframework.org/schema/beans"
+    xmlns="http://www.springframework.org/schema/security"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans 
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/security 
+        http://www.springframework.org/schema/security/spring-security.xsd">
+                        
+    <user-service id="userService">
+      <user name="vonzhou" password="vonzhou"
+                     authorities="ROLE_SPITTER,ROLE_ADMIN"/>
+      <user name="luyna" password="123456"
+                     authorities="ROLE_SPITTER"/>
+      <user name="admin" password="admin"
+                     authorities="ROLE_ADMIN"/>
+    </user-service>
+
+</beans:beans>
