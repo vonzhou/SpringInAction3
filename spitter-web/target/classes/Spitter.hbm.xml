@@ -15,6 +15,6 @@
         <!-- 设置可以为空,否则HibernateSystemException:
         Null value was assigned to a property of primitive type setter of com.vonzhou.spitter.persistence.Spitter.updateByEmail
         -->
-        <property column="update_by_email" name="updateByEmail" type="boolean" not-null="false"/>
+        <property column="update_by_email" name="updateByEmail" type="java.lang.Boolean" not-null="false"/>
     </class>
 </hibernate-mapping>

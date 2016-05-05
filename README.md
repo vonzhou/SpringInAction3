@@ -378,7 +378,7 @@ System.setProperty("org.apache.activemq.SERIALIZABLE_PACKAGES","*");
 
 > Spring旅程才刚刚开始！
 > 
-> vonzhou 2015.4.26 
+> vonzhou 2016.4.26 
 
 
 
