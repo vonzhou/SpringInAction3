@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.vonzhou.learning</groupId>
+    <artifactId>SpringInAction</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1</version>
+
+    <modules>
+        <module>spitter-persistence-mybatis</module>
+        <module>spitter-persistence-jdbc-conventional</module>
+        <module>spitter-persistence-jdbc-template</module>
+        <module>spitter-persistence-hibernate-contextual-session</module>
+        <module>spitter-persistence-jpa</module>
+
+        <module>spitter-web</module>
+        <module>spitter-web-rest</module>
+        <module>spitter-web-security</module>
+
+        <module>spitter-remoting-client</module>
+        <module>spitter-remoting-httpinvoker</module>
+        <module>spitter-remoting-rmi</module>
+
+        <module>springidol</module>
+        <module>springidol-aop</module>
+        <module>springidol-aspectj</module>
+        <module>springidol-autodiscovery</module>
+
+        <module>CartApp</module>
+        <module>hello-hessian</module>
+        <module>hello-hessian-spring</module>
+        <module>hello-hessian-spring-client</module>
+
+        <module>messaging</module>
+        <module>knights</module>
+
+        <module>spitter-service-programmatic-tx</module>
+        <module>spitter-service-declarative-tx</module>
+
+        <module>SpringPizza</module>
+
+    </modules>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+    </build>
+
+</project>

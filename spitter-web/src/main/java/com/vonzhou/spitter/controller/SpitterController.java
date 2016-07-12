@@ -8,16 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
+import java.util.logging.Logger;
 
 
 /**
@@ -29,13 +27,15 @@ public class SpitterController {
 
     private final SpitterService spitterService;
 
+    private Logger logger = Logger.getLogger("SpitterController.class");
+
     @Autowired
-    public SpitterController(SpitterService spitterService){
+    public SpitterController(SpitterService spitterService) {
         this.spitterService = spitterService;
     }
 
     @RequestMapping(value = "spittles", method = RequestMethod.GET)
-    public String listSpittlesForSpitter(@RequestParam("spitter") String username, Model model){
+    public String listSpittlesForSpitter(@RequestParam("spitter") String username, Model model) {
         Spitter spitter = spitterService.getSpitter(username);
         model.addAttribute(spitter);
         model.addAttribute(spitterService.getSpittlesForSpitter(username));
@@ -44,15 +44,15 @@ public class SpitterController {
     }
 
     @RequestMapping(method = RequestMethod.GET, params = "new")
-    public String createSpitterProfile(Model model){
+    public String createSpitterProfile(Model model) {
         model.addAttribute(new Spitter());
         return "spitters/edit";
     }
 
-    @RequestMapping(method=RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST)
     public String addSpitterFromForm(@Valid Spitter spitter, BindingResult bindingResult,
-                                     @RequestParam(value = "image", required = false)MultipartFile image, HttpSession session){
-        if(bindingResult.hasErrors()){
+                                     @RequestParam(value = "image", required = false) MultipartFile image, HttpSession session) {
+        if (bindingResult.hasErrors()) {
             return "spitters/edit";
         }
 
@@ -67,41 +67,54 @@ public class SpitterController {
         String imageStorePath = webRootPath + "/resources/";
 //        System.out.println("webRootPath" + webRootPath);
 
-        try{
-            if(!image.isEmpty()){
+        try {
+            if (!image.isEmpty()) {
                 validateImage(image);
                 saveImage(imageStorePath + spitter.getId() + ".jpg", image);
             }
-        }catch (ImageUploadException e){
+        } catch (ImageUploadException e) {
             bindingResult.reject(e.getMessage());
             return "spitters/edit";
         }
 
         return "redirect:/spitter/" + spitter.getUsername();
     }
-    private void validateImage(MultipartFile image){
-        if(!image.getContentType().equals("image/jpeg")){
+
+    private void validateImage(MultipartFile image) {
+        if (!image.getContentType().equals("image/jpeg")) {
             throw new ImageUploadException("Only JPG images accetpted.");
         }
     }
 
-    private void saveImage(String path, MultipartFile image) throws ImageUploadException{
+    private void saveImage(String path, MultipartFile image) throws ImageUploadException {
 
-        try{
+        try {
             File file = new File(path);
             FileUtils.writeByteArrayToFile(file, image.getBytes());
-        }catch (IOException e){
+        } catch (IOException e) {
             throw new ImageUploadException("Unable to save image to local");
         }
     }
 
     @RequestMapping(value = "/{username}", method = RequestMethod.GET)
-    public String showSpitterProfile(@PathVariable String username, Model model){
+    public String showSpitterProfile(@PathVariable String username, Model model) {
         // 加入的属性不能为空, IllegalArgumentException: Model object must not be null
         // 所以需要判断处理
         Spitter spitter = spitterService.getSpitter(username);
         spitter = (spitter == null) ? Spitter.FAKE_SPITTER : spitter;
         model.addAttribute(spitter);
         return "spitters/view";
+    }
+
+    @RequestMapping(value = "/json/test")
+    public
+    @ResponseBody
+    Spitter getSpitterInJson() {
+        Spitter spitter = new Spitter();
+        spitter.setUsername("vonzhou");
+        spitter.setId(100L);
+
+        logger.info("++++++++++++++++++");
+        return spitter;
     }
 }

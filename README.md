@@ -1,11 +1,17 @@
-# Spring In Action 3rd
+# Spring In Action 
 ---
 
-2016.3.31  阅读《Spring实战3rd》
+**2016.3.31  阅读《Spring实战3rd》**
 
 之前间歇的阅读过，但是只是停留在理解的层面上，想要把每个例子跑通也需要一定的折腾。
 
 注：每个示例都是一个单独的Maven Project。
+
+**2016.7.12 update**
+
+* 集成mybatis
+* Spring集成JUnit单元测试   [spitter-persistence-mybatis](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-persistence-mybatis)
+* 从Spring MVC中返回json，[spitter-web](https://github.com/vonzhou/SpringInAction3/tree/master/spitter-web)中SpitterController
 
 ## 1. Spring之旅
 
@@ -96,7 +102,7 @@ org.hibernate.LazyInitializationException: could not initialize proxy - no Sessi
 	org.apache.el.parser.AstValue.getValue(AstValue.java:169)
 	org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:184)
 	org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:943)
-	org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_s_005fparam_005f0(home_jsp.java:317)
+	ohrg.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_s_005fparam_005f0(home_jsp.java:317)
 	org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_s_005furl_005f0(home_jsp.java:283)
 	org.apache.jsp.WEB_002dINF.views.home_jsp._jspx_meth_c_005fforEach_005f0(home_jsp.java:208)
 	org.apache.jsp.WEB_002dINF.views.home_jsp._jspService(home_jsp.java:155)

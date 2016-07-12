@@ -1,4 +1,4 @@
-package com.vonzhou.spitter.persistence.conventional;
+package com.vonzhou.spitter.persistence.mybatis;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

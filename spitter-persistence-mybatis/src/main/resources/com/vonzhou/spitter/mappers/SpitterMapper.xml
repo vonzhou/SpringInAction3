@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.vonzhou.spitter.mappers.SpitterMapper">
+
+    <resultMap type="Spitter" id="SpitterResult">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="fullName" column="fullname"/>
+        <result property="email" column="email"/>
+        <result property="updateByEmail" column="update_by_email"/>
+    </resultMap>
+
+    <select id="findAllSpitters" resultMap="SpitterResult">
+        select * from SPITTER
+    </select>
+
+</mapper>

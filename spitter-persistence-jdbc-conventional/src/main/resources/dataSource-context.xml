@@ -15,7 +15,7 @@
           p:username="${jdbc.username}"
           p:password="${jdbc.password}" />
 
-    <bean id="jdbcSpitterDao" class="com.vonzhou.spitter.persistence.conventional.JdbcSpitterDao">
+    <bean id="jdbcSpitterDao" class="com.vonzhou.spitter.persistence.mybatis.JdbcSpitterDao">
         <property name="dataSource" ref="dataSource"/>
     </bean>
 

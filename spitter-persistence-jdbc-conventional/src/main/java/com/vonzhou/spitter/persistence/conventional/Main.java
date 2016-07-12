@@ -1,4 +1,4 @@
-package com.vonzhou.spitter.persistence.conventional;
+package com.vonzhou.spitter.persistence.mybatis;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

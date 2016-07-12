@@ -26,4 +26,5 @@
         pointcut="execution(* *..SpitterService.*(..))"
         advice-ref="txAdvice" />
   </aop:config>
+
 </beans>
