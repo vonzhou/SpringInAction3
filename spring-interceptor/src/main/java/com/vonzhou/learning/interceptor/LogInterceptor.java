@@ -30,6 +30,10 @@ public class LogInterceptor extends HandlerInterceptorAdapter {
         long startTime = System.currentTimeMillis();
         request.setAttribute("startTime", startTime);
         logger.info("Will call " + handler.toString());
+
+
+//        response.getWriter().println(" --- From Interceptor, you are rejected.");
+
         return true;
     }
 

@@ -20,7 +20,7 @@
             </bean>
         </mvc:interceptor>
         <mvc:interceptor>
-            <mvc:mapping path="/**"/>
+            <mvc:mapping path="/user/**"/>
             <mvc:exclude-mapping path="/admin/**"/>
             <bean class="com.vonzhou.learning.interceptor.LogInterceptor"/>
         </mvc:interceptor>
