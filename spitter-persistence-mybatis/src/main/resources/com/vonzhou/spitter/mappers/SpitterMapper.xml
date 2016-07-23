@@ -15,7 +15,7 @@
     </resultMap>
 
     <select id="findAllSpitters" resultMap="SpitterResult">
-        select * from SPITTER
+        select * from SPITTER2
     </select>
 
 </mapper>

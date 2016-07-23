@@ -1,16 +1,23 @@
 package com.vonzhou.spitter;
 
 import com.vonzhou.spitter.domain.Spitter;
+import com.vonzhou.spitter.service.SpitterService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.util.List;
 
 /**
  * Created by vonzhou on 16/4/5.
  */
 public class Main {
+
+
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("dataSource-context.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         //JdbcSpitterDao dao = (JdbcSpitterDao)context.getBean("jdbcSpitterDao");
+
+        SpitterService spitterService = (SpitterService) context.getBean("spitterService");
 
 
         Spitter s = new Spitter();
@@ -22,8 +29,7 @@ public class Main {
        // dao.addSpitter(s);
 
         //Spitter spitter = dao.getSpitterById(1);
-        System.out.println(s.getUsername());
-
-
+        List<Spitter> list = spitterService.findAllSpitters();
+        System.out.println(list.size());
     }
 }
