@@ -10,7 +10,7 @@
   <bean id="eddie"
       class="com.vonzhou.springinaction.springidolaop.Instrumentalist">
     <property name="instrument">
-      <bean class="com.springinaction.springidol.Guitar" />
+      <bean class="com.vonzhou.springinaction.springidolaop.Guitar" />
     </property>
   </bean>
 
@@ -25,15 +25,15 @@
       method="takeSeats" />
        
     <aop:before pointcut=
-         "execution(* com.springinaction.springidol.Performer.perform(..))"
+         "execution(* com.vonzhou.springinaction.springidolaop.Performer.perform(..))"
       method="turnOffCellPhones" />
        
     <aop:after-returning pointcut=
-         "execution(* com.springinaction.springidol.Performer.perform(..))" 
+         "execution(* com.vonzhou.springinaction.springidolaop.Performer.perform(..))"
       method="applaud" /> <!--返回后通知-->
        
     <aop:after-throwing pointcut=
-         "execution(* com.springinaction.springidol.Performer.perform(..))" 
+         "execution(* com.vonzhou.springinaction.springidolaop.Performer.perform(..))"
       method="demandRefund" />
        
  </aop:aspect>

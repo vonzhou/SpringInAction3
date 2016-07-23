@@ -24,7 +24,7 @@
             />
             <aop:before
                     pointcut-ref="performance"
-                    method="takeSeats()"/>
+                    method="takeSeats"/>
             <aop:before
                     pointcut-ref="performance"
                     method="turnOffCellPhones"/>
