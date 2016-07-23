@@ -5,6 +5,7 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.support.DefaultMultipartHttpServletRequest;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by vonzhou on 16/7/22.
  */
+@Component
 @Aspect
 public class SpittleAspect {
     private static final Logger logger = LoggerFactory.getLogger(SpittleAspect.class);
