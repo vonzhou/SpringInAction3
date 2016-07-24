@@ -2,6 +2,7 @@ package com.vonzhou.spitter;
 
 import com.vonzhou.spitter.domain.Spitter;
 import com.vonzhou.spitter.service.SpitterService;
+import com.vonzhou.spitter.service.SpitterService2;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -17,7 +18,8 @@ public class Main {
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         //JdbcSpitterDao dao = (JdbcSpitterDao)context.getBean("jdbcSpitterDao");
 
-        SpitterService spitterService = (SpitterService) context.getBean("spitterService");
+//        SpitterService spitterService = (SpitterService) context.getBean("spitterService");
+        SpitterService2 spitterService = (SpitterService2) context.getBean("spitterService2");
 
 
         Spitter s = new Spitter();
