@@ -10,11 +10,13 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.logging.Logger;
 
 
@@ -114,7 +116,15 @@ public class SpitterController {
         spitter.setUsername("vonzhou");
         spitter.setId(100L);
 
-        logger.info("++++++++++++++++++");
         return spitter;
     }
+
+
+    @RequestMapping(value = "/upload", method = RequestMethod.POST)
+    public String uploadImage(@RequestParam("name")String name, @RequestParam("desc") String desc, @RequestParam("avatar") MultipartFile file){
+        logger.info("Spitter name: " + name + ", desc: " + desc);
+        logger.info("Spitter avatar file :" + file.getOriginalFilename());
+        return "spitters/view";
+    }
+
 }
