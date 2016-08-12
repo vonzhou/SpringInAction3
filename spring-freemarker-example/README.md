@@ -1,0 +1,3 @@
+# Spring Free Marker Example
+---
+
