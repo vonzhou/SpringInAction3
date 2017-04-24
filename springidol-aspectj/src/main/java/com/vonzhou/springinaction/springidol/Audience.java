@@ -5,8 +5,7 @@ import org.aspectj.lang.annotation.*;
 
 @Aspect
 public class Audience {
-    @Pointcut(
-            "execution(* com.vonzhou.springinaction.springidol.Performer.perform(..))")
+    @Pointcut("execution(* com.vonzhou.springinaction.springidol.Performer.perform(..))")
     public void performance() {
     }
 
@@ -31,7 +30,7 @@ public class Audience {
     }
 
     @Around("performance()")
-    public void around(ProceedingJoinPoint proceedingJoinPoint){
+    public void around(ProceedingJoinPoint proceedingJoinPoint) {
         System.out.println("before around ====");
         try {
             proceedingJoinPoint.proceed();
