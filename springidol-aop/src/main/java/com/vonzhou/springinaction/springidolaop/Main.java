@@ -8,8 +8,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class Main {
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol.xml");
-        Performer performer = (Performer)context.getBean("eddie");
+//        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol.xml");
+//        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol-2.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-idol-around.xml");
+        Performer performer = (Performer) context.getBean("eddie");
         try {
             performer.perform();
         } catch (PerformanceException e) {

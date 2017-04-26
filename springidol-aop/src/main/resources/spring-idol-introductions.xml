@@ -43,22 +43,6 @@
                     default-impl="com.vonzhou.springinaction.springidolaop.GraciousContestant"
             />
         </aop:aspect>
-
-        <!--
-    <aop:declare-parents
-      types-matching="com.vonzhou.springinaction.springidol.Performer+"
-      implement-interface="com.vonzhou.springinaction.springidol.Contestant"
-      delegate-ref="contestantDelegate"
-      />
-        <end id="delegate_ref"/>
-
-    <start id="contestant_delegate"/>
-    <bean id="contestantDelegate"
-        class="com.vonzhou.springinaction.springidol.GraciousContestant" />
-        <end id="contestant_delegate"/>
-
-         -->
-
     </aop:config>
 
 </beans>
