@@ -4,7 +4,7 @@ import com.vonzhou.spitter.persistence.Spitter;
 import com.vonzhou.spitter.persistence.SpitterDao;
 import com.vonzhou.spitter.persistence.Spittle;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -14,7 +14,7 @@ import static java.lang.Math.min;
 import static java.util.Collections.reverse;
 
 
-@Component("spitterService")
+@Service
 @Transactional(propagation = Propagation.REQUIRED)
 public class SpitterServiceImpl implements SpitterService {
 
