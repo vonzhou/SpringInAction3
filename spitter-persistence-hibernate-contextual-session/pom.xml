@@ -8,18 +8,18 @@
         <repository>
             <id>GlassFish</id>
             <name>GlassFish Maven Repository</name>
-            <url>http://download.java.net/maven/glassfish/</url>
+            <url>https://download.java.net/maven/glassfish/</url>
         </repository>
         <repository>
             <id>java.net.m1repo</id>
             <name>java.net Maven 1 Repository</name>
-            <url>http://download.java.net/maven/1/</url>
+            <url>https://download.java.net/maven/1/</url>
             <layout>legacy</layout>
         </repository>
         <repository>
             <id>java.net.m2repo</id>
             <name>java.net Maven 2 Repository</name>
-            <url>http://download.java.net/maven/2/</url>
+            <url>https://download.java.net/maven/2/</url>
             <layout>default</layout>
         </repository>
     </repositories>
